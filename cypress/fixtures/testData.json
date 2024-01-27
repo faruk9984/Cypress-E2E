@@ -1,0 +1,14 @@
+{
+    "Login":{
+        "username":"farukqa1@yopmail.com",
+        "password":"12345678"
+    },
+
+    "product":{
+        "productName":"MacBook"
+
+    },
+    "message":{
+        "successMessage":"Success: You have added MacBook to your shopping cart!"
+    }
+}
