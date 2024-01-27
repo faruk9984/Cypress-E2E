@@ -11,6 +11,8 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
     watchForFileChanges:false,
+    // defaultCommandTimeout:10000,
+    // screenshotOnRunFailure:false,
   },
   env:{
     URL:"https://naveenautomationlabs.com/opencart/index.php?route=account/register"

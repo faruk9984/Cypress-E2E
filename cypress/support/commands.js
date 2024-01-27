@@ -25,6 +25,10 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 
+///<reference types="Cypress" />
+
+
+
 Cypress.Commands.add('login',(email,password)=>{
     cy.visit('')
     cy.get('#input-email').type(email)
