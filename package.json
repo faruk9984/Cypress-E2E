@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/faruk9984/Cypress-E2E#readme",
   "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
     "cypress": "^13.6.3",
     "cypress-mochawesome-reporter": "^3.8.1"
   }

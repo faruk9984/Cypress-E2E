@@ -35,3 +35,15 @@ Cypress.Commands.add('login',(email,password)=>{
     cy.get('#input-password').type(password)
     cy.get('input.btn.btn-primary').click()
 })
+
+
+
+
+Cypress.Commands.add('loginBasicAuth',()=>{
+    cy.visit('https://authenticationtest.com/HTTPAuth/',{
+        auth:{
+            username:'user',
+            password:'pass'
+        }
+    })
+})
