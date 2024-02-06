@@ -12,11 +12,20 @@ module.exports = defineConfig({
       // implement node event listeners here
       require('cypress-mochawesome-reporter/plugin')(on);
     },
+
+    env:{
+      username:'user',
+      password:'pass'
+    },
+
     watchForFileChanges:false,
+    // chromeWebSecurity: false,
     // defaultCommandTimeout:10000,
     // screenshotOnRunFailure:false,
   },
+
   env:{
     URL:"https://naveenautomationlabs.com/opencart/index.php?route=account/register"
   }
+  
 });
