@@ -8,6 +8,8 @@ describe('template spec', () => {
 
     before(()=>{
         cy.login(testData.Login.username, testData.Login.password)
+        // cy.login("farukqa1@yopmail.com", "12345678")
+
 
     })
     it('add to cart test', () => {
